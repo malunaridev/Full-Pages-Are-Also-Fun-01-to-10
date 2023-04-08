@@ -1,408 +1,408 @@
 * {
-    font-size: 62,5%;
-    box-sizing:border-box;
-    margin: 0;
+  font-size: 62, 5%;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    background-color: #f3ede4;
-    width: 100%;
+  background-color: #f3ede4;
+  width: 100%;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-links {
-    width: 100%;
-    height: 7rem;
-    background-color: #1e1e1e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 7rem;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-    padding: 1em 1em .2em 8em;
+  padding: 1em 1em 0.2em 8em;
 }
 
 ul {
-    display: flex;
-    gap: 2rem;
-    margin-right: 8em;
+  display: flex;
+  gap: 2rem;
+  margin-right: 8em;
 }
 
 ul li {
-    font-family: 'Playfair Display', serif;
-    list-style-type: none;
+  font-family: "Playfair Display", serif;
+  list-style-type: none;
 }
 
 ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 ul li a:hover {
-    color: #eec893;
-    transition:0.5s;
+  color: #eec893;
+  transition: 0.5s;
 }
 
 header {
-    width: 100%;
-    height: 70rem;
-    position: relative;
+  width: 100%;
+  height: 70rem;
+  position: relative;
 }
 
 .background {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 70rem;
-    opacity: 0.6;
-    z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70rem;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .whiteline {
-    width:100%;
-    position: absolute;
-    top: 27rem;
-    z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 27rem;
+  z-index: -1;
 }
 
 header #content {
-    display: flex;
-    justify-content: space-around;
-    grid-gap: 17.5rem;
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 17.5rem;
 }
 
 header .content-pictures {
-    position: relative;
+  position: relative;
 }
 
 .cellphone {
-    width: 21rem;
-    position: absolute;
-    margin-top: 9rem;
+  width: 21rem;
+  position: absolute;
+  margin-top: 9rem;
 }
 
 .headerimage {
-    width: 28rem;
-    position: absolute;
-    top: 43rem;
-    left: 16rem;
+  width: 28rem;
+  position: absolute;
+  top: 43rem;
+  left: 16rem;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 5em;
-    color: #010101;
-    font-weight: normal;
-    line-height: 5.5rem;
-    margin-top: 12rem;
-    margin-bottom: 1.7rem;
+  font-family: "Playfair Display", serif;
+  font-size: 5em;
+  color: #010101;
+  font-weight: normal;
+  line-height: 5.5rem;
+  margin-top: 12rem;
+  margin-bottom: 1.7rem;
 }
 
 h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4em;
-    color: #010101;
-    font-weight: normal;
-    margin-bottom:3rem;
-    line-height: 1.6rem;
+  font-family: "Playfair Display", serif;
+  font-size: 1.4em;
+  color: #010101;
+  font-weight: normal;
+  margin-bottom: 3rem;
+  line-height: 1.6rem;
 }
 
 button {
-    font-family: 'Playfair Display', serif;
-    background-color: #1e1e1e;
-    color: #fff;
-    padding: .6rem 2.5rem;
-    font-size: 1.3rem;
-    border: none;
+  font-family: "Playfair Display", serif;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 0.6rem 2.5rem;
+  font-size: 1.3rem;
+  border: none;
 }
 
 #section1 {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
 #section1 .content-text {
-    position: relative;
-    right: 2.5rem;
+  position: relative;
+  right: 2.5rem;
 }
 
 #section1 h1 {
-    line-height: 4.6rem;
+  line-height: 4.6rem;
 }
 
 #section1 img {
-    margin: 5rem 1rem;
+  margin: 5rem 1rem;
 }
 
 #section2 {
-    height: 55rem;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    position: relative;
+  height: 55rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .background2 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 55rem;
-    opacity: 0.6;
-    z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 55rem;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .whiteline2 {
-    width: 100%;
-    position: absolute;
-    top: 30vh;
-    z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 30vh;
+  z-index: -1;
 }
 
 #section2 .content-text {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #section2 h1 {
-    margin-top: 2rem; 
+  margin-top: 2rem;
 }
 
 #section2 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .image2 {
-    margin-left: 2rem;
-    margin-right: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 #section2 button {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 #section3 {
-    height: 55rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;   
+  height: 55rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
 
 #section3 .content-text {
-    position: relative;
-    left: 2.5rem;
+  position: relative;
+  left: 2.5rem;
 }
 
 #section3 h1 {
-    line-height: 4.6rem;
+  line-height: 4.6rem;
 }
 
 .image3 {
-    margin: 5rem 1rem;
+  margin: 5rem 1rem;
 }
 
 #section4 {
-    height: 55rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    justify-content: space-evenly;
-    position: relative;
+  height: 55rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
 }
 
 #section4 .content-text {
-    position: relative;
-    right: 2.5rem;
+  position: relative;
+  right: 2.5rem;
 }
 
 #section4 h1 {
-    line-height: 4.6rem;
+  line-height: 4.6rem;
 }
 
 .background4 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 55rem;
-    opacity: 0.6;
-    z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 55rem;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .whiteline4 {
-    width:100%;
-    position: absolute;
-    top: 60vh;
-    z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 60vh;
+  z-index: -1;
 }
 
 .image4 {
-    height: 40rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 7rem;
-    position: relative;
+  height: 40rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 7rem;
+  position: relative;
 }
 
 .star4 {
-    position: absolute;
-    top: 13rem;
-    left: 38rem;
+  position: absolute;
+  top: 13rem;
+  left: 38rem;
 }
 
 #section5 {
-    height: 55rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;  
-    align-items: center; 
+  height: 55rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 #section5 .content-text {
-    position: relative;
-    left: 2.5rem;
+  position: relative;
+  left: 2.5rem;
 }
 
 #section5 h1 {
-    line-height: 4.6rem;
-    margin-top: 0;
+  line-height: 4.6rem;
+  margin-top: 0;
 }
 
 #section5 img {
-    margin: 5rem 1rem;
+  margin: 5rem 1rem;
 }
 
 #section6 {
-    height: 65rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    justify-content: space-evenly;
-    position: relative;
+  height: 65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
 }
 
 #section6 .content-text {
-    position: relative;
-    right: 2.5rem;
+  position: relative;
+  right: 2.5rem;
 }
 
 #section6 h1 {
-    line-height: 4.6rem;
+  line-height: 4.6rem;
 }
 
 .background6 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 65rem;
-    opacity: 0.6;
-    z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 65rem;
+  opacity: 0.6;
+  z-index: -1;
 }
 
 .whiteline6 {
-    width:100%;
-    position: absolute;
-    top: 35rem;
-    z-index: -1;
+  width: 100%;
+  position: absolute;
+  top: 35rem;
+  z-index: -1;
 }
 
 .star6 {
-    position: absolute;
-    top: 8rem;
-    right: 8rem;
+  position: absolute;
+  top: 8rem;
+  right: 8rem;
 }
 
 .star6-2 {
-    position: absolute;
-    bottom: 4rem;
-    left: 25rem;
+  position: absolute;
+  bottom: 4rem;
+  left: 25rem;
 }
 
 #section6 input {
-    font-family: 'Playfair Display', serif;
-    width: 30rem;
-    height: 4rem;
-    border: none;
-    font-size: 1.5rem;
-    padding-left: 1rem;
+  font-family: "Playfair Display", serif;
+  width: 30rem;
+  height: 4rem;
+  border: none;
+  font-size: 1.5rem;
+  padding-left: 1rem;
 }
 
 #section6 h1 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #section7 {
-    height: 55rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 55rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mapouter {
-    position:relative;
-    text-align:right;
-    height:50%;
-    width:70%;
+  position: relative;
+  text-align: right;
+  height: 50%;
+  width: 70%;
 }
 
 .gmap_canvas {
-    overflow:hidden;
-    background:none;
-    height:100%;
-    width:100%;
+  overflow: hidden;
+  background: none;
+  height: 100%;
+  width: 100%;
 }
 
 #section7 h1 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #section7 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    height: 45rem;
-    background-color: #1e1e1e;
-    color: #fff;   
-    padding-top: 6rem;
+  height: 45rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding-top: 6rem;
 }
 
 #footer-nav {
-    display: flex;
-    gap: 5rem;
+  display: flex;
+  gap: 5rem;
 }
 
 .footer-links ul {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 0;   
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .footer-links a {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 hr {
-    width: 85%;
-    margin: auto;    
-    margin-top: 20rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 20rem;
 }
 
 footer h2 {
-    color: #fff;
-    margin-left: 7.5%;
-    margin-top: 3.5rem;
+  color: #fff;
+  margin-left: 7.5%;
+  margin-top: 3.5rem;
 }
