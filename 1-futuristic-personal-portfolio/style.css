@@ -395,7 +395,8 @@ footer h2 {
     right: 0;
   }
   #section1 img {
-    height: 50rem;}
+    height: 50rem;
+  }
 
   #section1 img {
     padding: 0 1rem;
@@ -424,7 +425,7 @@ footer h2 {
   * {
     font-size: 50%;
   }
- 
+
   header .content-text {
     left: 43rem;
   }
@@ -579,8 +580,8 @@ footer h2 {
   }
   #section2 h2 {
     width: 30rem;
+  }
 }
-
 @media (max-width: 490px) {
   * {
     font-size: 70%;
