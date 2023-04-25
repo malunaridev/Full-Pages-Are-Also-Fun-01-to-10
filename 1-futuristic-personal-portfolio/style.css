@@ -577,6 +577,8 @@ footer h2 {
   * {
     font-size: 75%;
   }
+  #section2 h2 {
+    width: 30rem;
 }
 
 @media (max-width: 490px) {
