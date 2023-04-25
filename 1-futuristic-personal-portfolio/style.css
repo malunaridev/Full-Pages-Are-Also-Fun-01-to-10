@@ -55,7 +55,7 @@ ul li a:hover {
 
 header {
   width: 100vw;
-  height: 120vh;
+  height: 65rem;
   background: url(./assets/background-header.jpg);
   background-size: cover;
   background-position: center;
@@ -104,7 +104,7 @@ button {
 }
 
 #section1 {
-  height: 100vh;
+  height: 60rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +124,7 @@ button {
 }
 
 #section2 {
-  height: 100vh;
+  height: 55rem;
   background: url(./assets/background-section2.jpg);
   background-size: cover;
   background-position: center;
@@ -157,7 +157,7 @@ button {
 
 #section3,
 #section5 {
-  height: 100vh;
+  height: 55rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,7 +181,7 @@ button {
 }
 
 #section4 {
-  height: 100vh;
+  height: 65rem;
   background: url(./assets/background-section4.jpg);
   background-size: cover;
   background-position: center;
@@ -202,7 +202,7 @@ button {
 }
 
 #section6 {
-  height: 100vh;
+  height: 65rem;
   background: url(./assets/background-section6.jpg);
   background-size: cover;
   background-position: center;
@@ -236,7 +236,7 @@ button {
 }
 
 #section7 {
-  height: 95vh;
+  height: 60rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -304,28 +304,28 @@ footer h2 {
   * {
     font-size: 85%;
   }
-  header {
-    height: 100vh;
-  }
 
   header .content-text {
     left: 57rem;
   }
   #section1 img {
-    height: 65rem;
+    height: 60rem;
     padding: 5rem 1rem;
   }
   #section2,
   #section3,
   #section5,
   #section6 {
-    height: 92vh;
+    height: 60rem;
   }
   #section4 {
-    height: 80vh;
+    height: 50rem;
   }
   #section4 .content-text {
     right: 0;
+  }
+  #section7 {
+    height: 50rem;
   }
 }
 
@@ -346,7 +346,7 @@ footer h2 {
     font-size: 78%;
   }
   header {
-    height: 90vh;
+    height: 63rem;
   }
   header .content-text {
     top: 10rem;
@@ -356,7 +356,7 @@ footer h2 {
   #section5,
   #section6,
   #section7 {
-    height: 80vh;
+    height: 55rem;
   }
   .image2 {
     width: 75rem;
@@ -366,7 +366,7 @@ footer h2 {
   }
   .image3,
   .image5 {
-    height: 50rem;
+    height: 45rem;
   }
   #section3 .content-text,
   #section5 .content-text {
@@ -379,7 +379,7 @@ footer h2 {
     font-size: 65%;
   }
   header {
-    height: 80vh;
+    height: 65rem;
   }
   #section1,
   #section2,
@@ -388,21 +388,21 @@ footer h2 {
   #section5,
   #section6,
   #section7 {
-    height: 70vh;
+    height: 55rem;
   }
   #section1 .content-text {
     right: 0;
   }
   #section1 img {
-    padding: 8rem 1rem;
+    height: 50rem;}
+
+  #section1 img {
+    padding: 0 1rem;
   }
 }
 @media (max-width: 900px) {
   * {
     font-size: 60%;
-  }
-  header {
-    height: 70vh;
   }
   header .content-text {
     top: 8rem;
@@ -411,31 +411,11 @@ footer h2 {
   #section1 .content-text {
     margin-left: 0;
   }
-  #section2,
-  #section3,
-  #section4,
-  #section5,
-  #section6,
-  #section7 {
-    height: 65vh;
-  }
 }
 
 @media (max-width: 830px) {
   * {
     font-size: 55%;
-  }
-  header {
-    height: 65vh;
-  }
-  #section1,
-  #section2,
-  #section3,
-  #section4,
-  #section5,
-  #section6,
-  #section7 {
-    height: 60vh;
   }
 }
 
@@ -443,19 +423,9 @@ footer h2 {
   * {
     font-size: 50%;
   }
-  header {
-    height: 60vh;
-  }
+ 
   header .content-text {
     left: 43rem;
-  }
-  #section2,
-  #section3,
-  #section4,
-  #section5,
-  #section6,
-  #section7 {
-    height: 55vh;
   }
 }
 
@@ -473,7 +443,7 @@ footer h2 {
   }
 
   header {
-    height: 100vh;
+    height: 65rem;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -505,7 +475,7 @@ footer h2 {
   }
 
   #section1 {
-    height: 100vh;
+    height: 62rem;
     flex-direction: column-reverse;
     justify-content: normal;
     text-align: center;
@@ -526,7 +496,7 @@ footer h2 {
     margin-bottom: 4rem;
   }
   #section2 {
-    height: 70vh;
+    height: 43rem;
     flex-direction: column-reverse;
   }
   #section2 h1 {
@@ -542,7 +512,7 @@ footer h2 {
 
   #section3,
   #section5 {
-    height: 90vh;
+    height: 57rem;
     flex-direction: column-reverse;
     justify-content: normal;
     text-align: center;
@@ -568,7 +538,7 @@ footer h2 {
   }
 
   #section4 {
-    height: 90vh;
+    height: 57rem;
     flex-direction: column-reverse;
     justify-content: center;
     text-align: center;
@@ -587,7 +557,7 @@ footer h2 {
   }
 
   #section6 {
-    height: 50vh;
+    height: 40rem;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -598,7 +568,7 @@ footer h2 {
     right: 0;
   }
   #section7 {
-    height: 70vh;
+    height: 45rem;
   }
 }
 
@@ -606,49 +576,11 @@ footer h2 {
   * {
     font-size: 75%;
   }
-  header,
-  #section1 {
-    height: 90vh;
-  }
-  #section2 {
-    height: 60vh;
-  }
-  #section3,
-  #section4,
-  #section5 {
-    height: 80vh;
-  }
 }
 
 @media (max-width: 490px) {
   * {
     font-size: 70%;
-  }
-  header,
-  #section1 {
-    height: 85vh;
-  }
-  #section1 img {
-    margin-bottom: 3rem;
-  }
-  #section2 {
-    height: 55vh;
-  }
-  #section2 h2 {
-    width: 35rem;
-  }
-  #section3,
-  #section4,
-  #section5,
-  #section7 {
-    height: 65vh;
-  }
-  #section3 img,
-  #section5 img {
-    height: 24rem;
-  }
-  #section4 img {
-    height: 25rem;
   }
   footer {
     height: 35rem;
@@ -665,36 +597,10 @@ footer h2 {
   * {
     font-size: 60%;
   }
-  header,
-  #section1 {
-    height: 75vh;
-  }
-  #section2 {
-    height: 50vh;
-  }
-  #section3,
-  #section4,
-  #section5,
-  #section7 {
-    height: 58vh;
-  }
 }
 
 @media (max-width: 400px) {
   * {
     font-size: 55%;
-  }
-  header,
-  #section1 {
-    height: 70vh;
-  }
-  #section2 {
-    height: 47vh;
-  }
-  #section3,
-  #section4,
-  #section5,
-  #section7 {
-    height: 55vh;
   }
 }
