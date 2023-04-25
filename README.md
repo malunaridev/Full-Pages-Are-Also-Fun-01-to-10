@@ -1,4 +1,4 @@
-![A pretty README header](assets/Readme-Header.png)
+![A pretty README header](./1-futuristic-personal-portfolio/assets/Readme-files/Readme-Header.png)
 <br />
 <br />
 ![What is this about?](assets/Readme-What-is-this.png)
@@ -9,12 +9,12 @@ This is a personal project where I build some full pages pages for fun. Similar 
 <br />
 <br />
 
-![Landing pages list](assets/Readme-Full-pages-list.png)
+![Full pages list](assets/Readme-Full-pages-list.png)
 
 |         |             |    
 | :-------------:|:-------------:|
-| ![Landing page 1](assets/Readme-FP1.png) |  |
-| **Full Page #1:** Futuristic Personal Portfolio   |   
+| ![Full Page 1](./1-futuristic-personal-portfolio/assets/Readme-files/Readme-Mockup.png) |  |
+| **Website Template #1:** Futuristic Personal Portfolio   |   
 | **Code:** [📄](https://github.com/malunaridev/Full-Pages-Are-Also-Fun/tree/master/futuristic-personal-portfolio) \| **Live Preview:** [🌐](https://fpaaf-futuristic-personal-portfolio.vercel.app/) | 
 
 <br />
