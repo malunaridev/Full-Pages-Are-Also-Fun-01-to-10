@@ -1,0 +1,289 @@
+:root {
+  --color-1: #8c62ff;
+  --color-2: #50ffaf;
+  --color-3: #ffe931;
+  --color-4: #ff99d9;
+  --color-5: #3ebcc6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+#heroSection {
+  height: 112svh;
+  background-color: var(--color-1);
+  position: relative;
+  z-index: 1;
+}
+.textureOverlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(./assets/texture.png);
+  z-index: -1;
+}
+header {
+  padding: 3rem 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#upperMenu {
+  width: 45%;
+}
+.upperNav {
+  padding: 2rem 5rem;
+  border-radius: 10rem;
+  background-color: var(--color-2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 4px 5px rgb(0, 0, 0);
+}
+.upperNav li,
+.upperNav li a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+.upperNav li:hover,
+.upperNav li a:hover {
+  font-weight: 600;
+  opacity: 1;
+}
+.getStarted {
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  background-color: var(--color-3);
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border: 0;
+  box-shadow: 4px 5px rgb(0, 0, 0);
+  cursor: pointer;
+}
+#frontSection {
+  width: 100%;
+  padding: 7rem 15rem 0;
+  display: flex;
+}
+.leftSide,
+.rightSide {
+  width: 50%;
+  margin: 3rem 0;
+  position: relative;
+}
+.stars1 {
+  position: absolute;
+  top: -7rem;
+  left: 1rem;
+}
+.NFT1 {
+  width: 55rem;
+  display: block;
+  margin-bottom: 2.5rem;
+  box-shadow: 13px 14px rgb(0, 0, 0);
+}
+.frontSectionText,
+.secondSectionText {
+  font-family: "Kulim Park", sans-serif;
+  font-size: 3.2rem;
+  color: #fff;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: block;
+  width: 63%;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.miniSlider {
+  width: 77rem;
+  height: 30rem;
+  background: url(./assets/starframe.png) no-repeat;
+  position: relative;
+  top: -4.5rem;
+}
+#miniSliderImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.26);
+  border-radius: 12rem;
+}
+
+.lettering {
+  position: relative;
+}
+.firstLine {
+  display: flex;
+  align-items: center;
+}
+.textType1,
+.textType3 {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-size: 12rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 4px 4px rgb(0, 0, 0);
+}
+.separator {
+  height: 9rem;
+  filter: drop-shadow(4px 3px rgb(0, 0, 0));
+}
+.textType2 {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-size: 8rem;
+  text-align: right;
+  color: var(--color-1);
+  text-transform: uppercase;
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff,
+    -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.lastLine {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2%;
+}
+.textType3 {
+  font-size: 10rem;
+  text-align: right;
+}
+
+.stars2 {
+  position: absolute;
+  top: 48%;
+  left: -10%;
+  transform: translate(-50%, -40%);
+}
+
+.arrowsDown {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#section2 {
+  width: 100%;
+  height: 112svh;
+  background-color: var(--color-4);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headingText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7rem 15rem 0;
+}
+.headingText1 {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-size: 8rem;
+  text-transform: uppercase;
+}
+.secondSectionText {
+  display: block;
+  width: 30%;
+  color: #000;
+  margin-top: 2rem;
+}
+
+.sliderSection {
+  width: 100%;
+  padding: 7rem 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counterArea {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counterNumberArea {
+  width: 38rem;
+  height: 38rem;
+  background: url(./assets/roundBorder.png) no-repeat;
+  position: relative;
+}
+
+#counterNumber {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-size: 13rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.arrowsArea {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+#previousArrow {
+  opacity: 0.2;
+}
+
+.sliderArea {
+  width: 60%;
+}
+
+#squareBackground {
+  width: 95rem;
+  height: 55rem;
+  background-color: var(--color-5);
+  position: relative;
+  box-shadow: 13px 14px rgb(0, 0, 0);
+}
+
+.star4 {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+}
+
+#NFTimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 9rem;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.star5 {
+  position: absolute;
+  top: -5rem;
+  left: -5rem;
+}
