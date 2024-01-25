@@ -5,6 +5,7 @@
   --color-4: #ff99d9;
   --color-5: #3ebcc6;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -24,15 +25,18 @@
   background: url(./assets/texture.png);
   z-index: -1;
 }
+
 header {
   padding: 3rem 15rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 #upperMenu {
   width: 45%;
 }
+
 .upperNav {
   padding: 2rem 5rem;
   border-radius: 10rem;
@@ -42,6 +46,7 @@ header {
   justify-content: space-between;
   box-shadow: 4px 5px rgb(0, 0, 0);
 }
+
 .upperNav li,
 .upperNav li a {
   font-family: "Open Sans", sans-serif;
@@ -54,11 +59,13 @@ header {
   opacity: 0.7;
   transition: opacity 0.5s;
 }
+
 .upperNav li:hover,
 .upperNav li a:hover {
   font-weight: 600;
   opacity: 1;
 }
+
 .getStarted {
   padding: 2rem 4rem;
   border-radius: 1rem;
@@ -70,17 +77,20 @@ header {
   box-shadow: 4px 5px rgb(0, 0, 0);
   cursor: pointer;
 }
+
 #frontSection {
   width: 100%;
   padding: 7rem 15rem 0;
   display: flex;
 }
+
 .leftSide,
 .rightSide {
   width: 50%;
   margin: 3rem 0;
   position: relative;
 }
+
 .stars1 {
   position: absolute;
   top: -7rem;
